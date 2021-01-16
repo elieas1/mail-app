@@ -1,0 +1,35 @@
+textarea {
+    min-height: 400px;
+}
+#emails
+{
+    display:flex;
+    flex-direction: column;
+}
+#emails>div
+{
+    border: 1px solid lightblue;
+    margin-top:10px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.1rem;
+    transition: 0.2s;
+    word-break: break-word;
+}
+#emails>div:hover
+{
+    border: 1px solid lightblue;
+    margin-top:10px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(210, 226, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.2rem
+
+}
+#emails-view
+{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    height:300px;
+}
